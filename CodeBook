@@ -1,0 +1,41 @@
+The variables in the tidy data
+
+Tidy data contains 180 rows and 68 columns. Each row has averaged variables for each subject and each activity.
+
+mean(): Mean value
+std(): Standard deviation
+The data were averaged based on subject and activity group.
+Activity column has 6 types as listed below.
+
+WALKING
+WALKING_UPSTAIRS
+WALKING_DOWNSTAIRS
+SITTING
+STANDING
+LAYING
+The tidy data contains 180 rows (averaged based on activity) and 68 columns (66 variables and activity labels).
+"subject"                                        "activity"                                       "timeBodyAccelerometer-mean()-X"                
+ [4] "timeBodyAccelerometer-mean()-Y"                 "timeBodyAccelerometer-mean()-Z"                 "timeBodyAccelerometer-std()-X"                 
+ [7] "timeBodyAccelerometer-std()-Y"                  "timeBodyAccelerometer-std()-Z"                  "timeGravityAccelerometer-mean()-X"             
+[10] "timeGravityAccelerometer-mean()-Y"              "timeGravityAccelerometer-mean()-Z"              "timeGravityAccelerometer-std()-X"              
+[13] "timeGravityAccelerometer-std()-Y"               "timeGravityAccelerometer-std()-Z"               "timeBodyAccelerometerJerk-mean()-X"            
+[16] "timeBodyAccelerometerJerk-mean()-Y"             "timeBodyAccelerometerJerk-mean()-Z"             "timeBodyAccelerometerJerk-std()-X"             
+[19] "timeBodyAccelerometerJerk-std()-Y"              "timeBodyAccelerometerJerk-std()-Z"              "timeBodyGyroscope-mean()-X"                    
+[22] "timeBodyGyroscope-mean()-Y"                     "timeBodyGyroscope-mean()-Z"                     "timeBodyGyroscope-std()-X"                     
+[25] "timeBodyGyroscope-std()-Y"                      "timeBodyGyroscope-std()-Z"                      "timeBodyGyroscopeJerk-mean()-X"                
+[28] "timeBodyGyroscopeJerk-mean()-Y"                 "timeBodyGyroscopeJerk-mean()-Z"                 "timeBodyGyroscopeJerk-std()-X"                 
+[31] "timeBodyGyroscopeJerk-std()-Y"                  "timeBodyGyroscopeJerk-std()-Z"                  "timeBodyAccelerometerMagnitude-mean()"         
+[34] "timeBodyAccelerometerMagnitude-std()"           "timeGravityAccelerometerMagnitude-mean()"       "timeGravityAccelerometerMagnitude-std()"       
+[37] "timeBodyAccelerometerJerkMagnitude-mean()"      "timeBodyAccelerometerJerkMagnitude-std()"       "timeBodyGyroscopeMagnitude-mean()"             
+[40] "timeBodyGyroscopeMagnitude-std()"               "timeBodyGyroscopeJerkMagnitude-mean()"          "timeBodyGyroscopeJerkMagnitude-std()"          
+[43] "frequencyBodyAccelerometer-mean()-X"            "frequencyBodyAccelerometer-mean()-Y"            "frequencyBodyAccelerometer-mean()-Z"           
+[46] "frequencyBodyAccelerometer-std()-X"             "frequencyBodyAccelerometer-std()-Y"             "frequencyBodyAccelerometer-std()-Z"            
+[49] "frequencyBodyAccelerometerJerk-mean()-X"        "frequencyBodyAccelerometerJerk-mean()-Y"        "frequencyBodyAccelerometerJerk-mean()-Z"       
+[52] "frequencyBodyAccelerometerJerk-std()-X"         "frequencyBodyAccelerometerJerk-std()-Y"         "frequencyBodyAccelerometerJerk-std()-Z"        
+[55] "frequencyBodyGyroscope-mean()-X"                "frequencyBodyGyroscope-mean()-Y"                "frequencyBodyGyroscope-mean()-Z"               
+[58] "frequencyBodyGyroscope-std()-X"                 "frequencyBodyGyroscope-std()-Y"                 "frequencyBodyGyroscope-std()-Z"                
+[61] "frequencyBodyAccelerometerMagnitude-mean()"     "frequencyBodyAccelerometerMagnitude-std()"      "frequencyBodyAccelerometerJerkMagnitude-mean()"
+[64] "frequencyBodyAccelerometerJerkMagnitude-std()"  "frequencyBodyGyroscopeMagnitude-mean()"         "frequencyBodyGyroscopeMagnitude-std()"         
+[67] "frequencyBodyGyroscopeJerkMagnitude-mean()"     "frequencyBodyGyroscopeJerkMagnitude-std()"     
+variable units
+Activity variable is factor type. Subject variable is integer type. All the other variables are numeric type.
